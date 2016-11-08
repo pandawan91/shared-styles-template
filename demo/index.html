@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>shared-styles-template demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+
+    <link rel="import" href="../shared-styles-template.html">
+
+    <style is="custom-style" include="shared-styles-template">
+      h3 {
+        color: var(--primary-color);
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="vertical-section-container centered">
+      <h3>Basic shared-styles-template Demo</h3>
+      <demo-snippet>
+        <template>
+          <shared-styles-template></shared-styles-template>
+        </template>
+      </demo-snippet>
+    </div>
+
+  </body>
+</html>
